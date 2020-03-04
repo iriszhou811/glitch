@@ -1,0 +1,41 @@
+body {
+  font-family:'Roboto', sans-serif;
+  margin: 2em;
+  background-color:LightBlue;
+}
+
+p {
+  font-size:16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  /* font-style: italic; */
+  color: #373fff; /* My branded blue */
+} 
+
+
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: purple;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+  font-size:18px;
+  background-color:#373fff;
+}
+
+/* selected link */
+a:active {
+  color: white;
+  font-size:20px;
+}
+
+.centered {
+  text-align:center;
+}
